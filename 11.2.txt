@@ -1,0 +1,7 @@
+from tkinter import *
+win= Tk()
+win.geometry("500x500")
+menu= StringVar()
+menu.set("Select Any Citites")
+OptionMenu(win, menu,"Ahmedabad", "Baroda","Pune","Mumbai","Bangalore","Surat").pack
+win.mainloop()
