@@ -1,0 +1,48 @@
+SQUARE 
+
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("lightblue")
+turtle.pencolor('white')
+turtle.fillcolor("green")
+turtle.width(4)
+turtle.begin_fill()
+for i in range(4):
+turtle.forward(80)
+turtle.left(90)
+turtle.end_fill()
+turtle.exitonclick()
+
+
+RECTANGLE
+
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("brown")
+turtle.pencolor('black')
+turtle.fillcolor("white")
+turtle.begin_fill()
+for _ in range(4):
+if _% 2 == 0:
+turtle.forward(100)
+turtle.left(90)
+else:
+turtle.forward(50)
+turtle.left(90)
+turtle.end_fill()
+turtle.exitonclick()
+
+
+STAR
+
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("beige")
+turtle.pencolor('blue')
+turtle.fillcolor("orange")
+turtle.begin_fill()
+for i in range(5):
+turtle.forward(150)
+turtle.left(144)
+turtle.end_fill()
+turtle.exitonclick()
