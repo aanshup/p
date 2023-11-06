@@ -1,0 +1,7 @@
+from google.colab import drive
+drive.mount('/content/drive')
+Mounted at /content/drive
+import D
+a=int(input("enter first no = "))
+b=int(input("enter second no = "))
+D.arith()
